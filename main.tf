@@ -24,7 +24,7 @@ resource "aws_subnet" "public" {
     # Adding Name tag to the public subnet tags 
     {
         Name = "${var.project}-${var.environment}-public-${local.az_names[count.index]}"
-    }
-  
+    },
+    var.public_subnet_tags
   )
 }
