@@ -118,7 +118,7 @@ roboshop-dev-database-us-east-1a
 
 ## Architecture
 
-![alt text](vpc-module.jpg)
+![alt text](https://github.com/Kalvakota-Divakar/terraform-aws-vpc/blob/52a506007336448955f1421ca7fa812e61940f28/vpc-module.jpg)
 
 ---
 
